@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang = "ko">
+    <head>
+        <script  src="http://code.jquery.com/jquery-3.3.1.js"  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="  crossorigin="anonymous"></script> 
+        
+        <!-- 합쳐지고 최소화된 최신 CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    
+        <!-- 부가적인 테마 -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    
+        <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>   
+        <meta charset = "utf-8">
+        <title>7기 남정원</title>
+    </head>
+    <body>
+                <div class = "container">
+                <h1>잃어버린 과제를 찾아서...</h1>
+                <h3>제출과 동시에 세상에서 사라지는 과제를 다시 살려내자</h3>
+                본 사이트는 여러 학교의 과제와 졸업 작품을 모아놓은 아카이브입니다. <br> 과제 제출 후, 졸업 작품 상영회 이후 다시는 볼 수 없는 작품이 되어버리는 우리들의 과제가 아까워서 만든 사이트입니다.
+                <br>
+                <br>
+            <ul class="nav nav-tabs">
+                    <li role="presentation" class="active"><a href="web.html">작품 보기</a></li>
+                    <li role="presentation"><a href="upload.html">작품 올리기</a></li>
+                  </ul>
+         <form>
+             <br>
+                <p>작품을 업로드 하려면 로그인해주세요.</p>
+            
+                <form class="form-inline">
+                        <div class="form-group">
+                          <label class="sr-only" for="exampleInputEmail3">email adress</label>
+                          <input type="email" class="form-control" id="exampleInputEmail3" placeholder="이메일 주소를 입력하세요.">
+                        </div>
+                        <div class="form-group">
+                          <label class="sr-only" for="exampleInputPassword3">password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword3" placeholder="비밀번호를 입력하세요.">
+                        </div>
+                        <div class="checkbox">
+                          <label>
+                            <input type="checkbox"> 기억하기
+                          </label>
+                        </div>
+                        <button type="submit" class="btn btn-default">로그인</button>
+                      </form>
+                 <div class="form-group">
+                     <br>
+                    <label for="exampleInputFile">파일 업로드</label>
+                    <input type="file" id="exampleInputFile">
+                    
+                </div>
+                <form action = "전송받을 대상">
+                        <strong>작품 설명</strong>
+                        <br>
+                        업로드할 작품의 학교명을골라주세요.
+                        <select>
+                            <option value = "skku">성균관대학교</option>
+                            <option value = "karts">한국예술종합학교</option>
+                        </select>
+                        <br>
+                        업로드할 작품의 제작년도를 골라주세요.
+                        <select> 
+                            <option value = "2018">2018</option>
+                            <option value = "2018">2017</option>
+                            <option value = "2018">2016</option>
+                        </select>
+                        <br>
+                        <br>
+                        <em>작품에 대한 설명을 작성해주세요.</em>
+                        <br>
+                        <textarea cols = "80" rows = "10"></textarea>
+                        
+                        <br>
+            
+            
+                    </form>
+             
+                <button type="submit" class="btn btn-default">제출</button>
+                <br>
+        
+
+        <br>
+        
+    </body>
+</html>
